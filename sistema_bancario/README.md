@@ -13,6 +13,10 @@ O sistema possui as seguintes operações:
     * Limite de **3 saques** por dia. 🔄
     * Valor máximo de **R$ 500,00** por saque. 💸
 * **Extrato**: Exibe todas as movimentações (depósitos e saques) e o saldo atual da conta. 📜
+* **Novo Usuário**: Permite cadastrar um novo usuário com nome, data de nascimento e endereço, garantindo que o CPF seja único. 👥
+* **Nova Conta**: Permite criar uma nova conta bancária e vinculá-la a um usuário existente. 💳
+* **Listar Contas**: Exibe todas as contas cadastradas no sistema. 📋
+* **Acessar Conta**: Permite selecionar uma conta para realizar as operações de depósito, saque e extrato. 🔑
 
 ---
 
@@ -39,6 +43,4 @@ Para rodar este programa, você precisa ter o Python 3 instalado.
 
 Este projeto pode ser expandido para incluir mais funcionalidades, como:
 
-* Cadastro de múltiplos usuários e contas. 👥
-* Transferências entre contas. ➡️
-* Histórico de transações mais detalhado com data e hora. 📅
+* Refatorar o sistema para que as operações de depósito, saque e extrato sejam realizadas por conta e não mais de forma global.
